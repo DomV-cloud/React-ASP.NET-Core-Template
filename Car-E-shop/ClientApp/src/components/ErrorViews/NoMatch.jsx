@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 
-const MyComponent = () => {
+const NoMatch = () => {
 
     return (
         <div>
@@ -10,4 +10,4 @@ const MyComponent = () => {
     );
 };
 
-export default MyComponent;
+export default NoMatch;
