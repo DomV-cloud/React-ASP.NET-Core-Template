@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Car_E_shop.Migrations
 {
     [DbContext(typeof(EShopContext))]
-    [Migration("20230806115940_CreateEshopDB")]
+    [Migration("20230806125312_CreateEshopDB")]
     partial class CreateEshopDB
     {
         /// <inheritdoc />
