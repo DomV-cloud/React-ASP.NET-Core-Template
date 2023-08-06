@@ -6,7 +6,7 @@ namespace Car_E_shop.Database
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=SchoolDB;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Eshop;Trusted_Connection=True;TrustServerCertificate=True;");
         }
     }
 }
