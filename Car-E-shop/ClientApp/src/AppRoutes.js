@@ -1,9 +1,14 @@
 import { Home } from "./components/Home";
+import { Login } from "./components/Login";
 
 const AppRoutes = [
   {
-    index: true,
-    element: <Home />
+        index: true,
+        element: <Login />
+  },
+  {
+        path: "/home",
+        element: <Home />
   }
 
 ];

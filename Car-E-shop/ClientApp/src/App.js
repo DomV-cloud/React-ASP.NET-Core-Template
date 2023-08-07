@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
-import Navigation from './components/Navigation'
+import Login from './components/Login';
+import MyOutlet from './components/Router/MyOutlet';
+
+
 const App = () => {
     return (
-
-        <Navigation/>
+        <div>
+            <MyOutlet/>
+        </div>
+        
     );
 };
 export default App;

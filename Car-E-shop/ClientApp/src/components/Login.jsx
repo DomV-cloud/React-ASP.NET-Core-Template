@@ -1,11 +1,15 @@
 ﻿import React from 'react';
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './Home'
 const Login = () => {
 
     return (
         <div>
-            <h1>Moje Komponenta</h1>
-            <p>Toto je obsah komponenty.</p>
+            <Link to="/home" style={{ padding: 5 }}>
+                Login
+            </Link>
+
+            
         </div>
     );
 };
