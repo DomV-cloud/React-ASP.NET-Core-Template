@@ -12,7 +12,6 @@ const NavLayout = () => (
         <Outlet />
     </>
 );
-
 const MyOutlet = () => {
     return (
         <Routes>
